@@ -30,11 +30,11 @@ Additionally you can use the `friendly_name` parameter which is not present with
         switches:
           switch_a:
             friendly_name: Schwibbogen Küche
-            command_on: /config/bin/codesend.sh 123456 4
-            command_off: /config/bin/codesend.sh 456789 4
+            command_on: /config/bin/codesend 123456 4
+            command_off: /config/bin/codesend 456789 4
 
 ## HowTo
 
-Download these files and put them where you want.
+Download the binary file and put them where you want.
 I prefere the configuration folder so I have no problems with an update of my docker container.
 Thats it!
