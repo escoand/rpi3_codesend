@@ -35,6 +35,6 @@ Additionally you can use the `friendly_name` parameter which is not present with
 
 ## HowTo
 
-Download the binary file and put them where you want.
+Download the binary file and put it where you want.
 I prefere the configuration folder so I have no problems with an update of my docker container.
 Thats it!
