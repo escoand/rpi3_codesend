@@ -20,7 +20,7 @@ So there are maybe sometimes missing switch actions.
 
 ## Solution
 
-You can use the [command_line](https://home-assistant.io/components/switch.command_line/) component and the codesend binary instead.
+You can use the [command_line](https://home-assistant.io/components/switch.command_line/) component and the [codesend](https://github.com/ninjablocks/433Utils/blob/master/RPi_utils/codesend.cpp) binary instead.
 The switch actions are much more reliable with this solution.
 Additionally you can use the `friendly_name` parameter which is not present with rpi-rf.
 
